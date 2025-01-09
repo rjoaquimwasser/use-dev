@@ -1,0 +1,57 @@
+/* Definindo o espaçamento da seção */
+.promocoes {
+    padding: 32px 12.5%;
+}
+
+/* Estilizando o título da seção */
+.promocoes__titulo {
+    font-size: 39px;
+    line-height: 46.8px;
+    font-weight: 700;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-texto-principal);
+    margin-bottom: 32px;
+}
+
+/* Grid responsivo da lista dos produtos, com número de colunas ajustável */
+.promocoes__lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsividade */
+    gap: 26.67px;
+    list-style-type: none;
+}
+
+/* Sombreamento nas bordas dos cards */
+.promocoes__lista__item {
+    box-shadow: 0px 4px 24px 0px #7B7B7B26;
+}
+
+/* Ajustando a imagem */
+.promocoes__lista__item img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Container com a descrição do produto */
+.promocoes__lista__item__descricao {
+    background-color: var(--cor-texto);
+    color: var(--cor-texto-principal);
+    padding: 16px 24px;
+}
+
+/* Nome do produto */
+.promocoes__lista__item__descricao h4 {
+    font-size: 25px;
+    line-height: 30px;
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+}
+
+/* Preço do produto */
+.promocoes__lista__item__descricao p {
+    font-family: var(--fonte-texto);
+    font-size: 31px;
+    line-height: 46.5px;
+    margin-top: 16px;
+    font-weight: 600;
+}

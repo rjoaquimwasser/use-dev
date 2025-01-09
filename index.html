@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UseDev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./css/cabecalho.css">
+<link rel="stylesheet" href="./css/banner.css">
+<link rel="stylesheet" href="./css/categorias.css">
+<link rel="stylesheet" href="./css/promocoes.css">
+<link rel="stylesheet" href="./css/newsletter.css">
+<link rel="stylesheet" href="./css/rodape.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <!-- Menu do cabeçalho -->
+        <nav class="cabecalho__nav">
+            <!-- Itens do cabeçalho -->
+            <ul class="cabecalho__nav__lista">
+                <li>
+                    <!-- Logo da página -->
+                    <h1 class="cabecalho__logo">
+                        <img src="./assets/icons/logo.svg" alt="Logo da UseDev">
+                    </h1>
+                </li>
+                <!-- Sobre nós -->
+                <li class="cabecalho__nav__lista__item">
+                    <a class="cabecalho__nav__lista__link cabecalho__nav__lista__link-sobre" href="#">Sobre nós</a>
+                </li>
+                <!-- Barra de pesquisa -->
+                <li class="cabecalho__nav__lista__item cabecalho__nav__lista__item-input">
+                    <input class="cabecalho__nav__lista__input" type="search" id="search" placeholder="O que você procura?">
+                    <!-- Ícone de lupa -->
+                    <img class="pesquisa-icone" src="./assets/icons/search.svg" alt="Lupa">
+                </li>
+                <!-- Login -->
+                <li class="cabecalho__nav__lista__item">
+                    <a class="cabecalho__nav__lista__link cabecalho__nav__lista__link-login" href="#">Login</a>
+                </li>
+                <!-- Perfil -->
+                <li class="cabecalho__nav__lista__item">
+                    <a class="cabecalho__nav__lista__link cabecalho__nav__lista__link-perfil">
+                        <img src="./assets/icons/perfil.svg" alt="Perfil">
+                    </a>
+                </li>
+                <!-- Carrinho -->
+                <li class="cabecalho__nav__lista__item">
+                    <a class="cabecalho__nav__lista__link cabecalho__nav__lista__link-carrinho">
+                        <img src="./assets/icons/carrinho.svg" alt="Carrinho">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <!-- Imagem -->
+        <img class="banner__imagem" src="./assets/banner.png" alt="Uma pessoa usando uma camiseta da UseDev">
+        <!-- Container com texto e botão -->
+        <div class="banner__container">
+            <!-- Texto -->
+            <h2 class="banner__container-titulo">Hora de abraçar seu <span>lado geek!</span></h2>
+            <!-- Botão -->
+            <button class="banner__container-botao">Ver as novidades!</button>
+        </div>
+    </section>
+
+    <!-- Seção de categorias -->
+    <section class="categorias">
+        <!-- Título da seção -->
+        <h3 class="categorias__titulo">Categorias</h3>
+        <!-- Descrição da seção -->
+        <p class="categorias__texto">De roupas a gadgets tecnológicos temos tudo para atender suas paixões e hobbies com estilo e autenticidade.</p>
+        
+        <!-- Lista com as categorias -->
+        <ul class="categorias__lista">
+            <!-- Item da lista (Roupas) -->
+            <li class="categorias__lista__item categorias__lista__item-roupas">
+                <!-- Container com a imagem da categoria -->
+                <div class="categorias__lista__item__container">
+                    <img src="./assets/roupas.png" alt="Roupas">
+                </div>
+                <!-- Nome da categoria -->
+                <h4 class="categorias__lista__item__titulo">Roupas</h3>
+            </li>
+
+            <!-- Item da lista (Decoração) -->
+            <li class="categorias__lista__item categorias__lista__item-decoracao">
+                <!-- Container com a imagem da categoria -->
+                <div class="categorias__lista__item__container">
+                    <img src="./assets/decoracao.png" alt="Decoração">
+                </div>
+                <!-- Nome da categoria -->
+                <h4 class="categorias__lista__item__titulo">Decoração</h3>
+            </li>
+
+            <!-- Item da lista (Canecas) -->
+            <li class="categorias__lista__item categorias__lista__item-canecas">
+                <!-- Container com a imagem da categoria -->
+                <div class="categorias__lista__item__container">
+                    <img src="./assets/canecas.png" alt="Canecas">
+                </div>
+                <!-- Nome da categoria -->
+                <h4 class="categorias__lista__item__titulo">Canecas</h3>
+            </li>
+
+            <!-- Item da lista (Acessórios) -->
+            <li class="categorias__lista__item categorias__lista__item-acessorios">
+                <!-- Container com a imagem da categoria -->
+                <div class="categorias__lista__item__container">
+                    <img src="./assets/acessorios.png" alt="Acessórios">
+                </div>
+                <!-- Nome da categoria -->
+                <h4 class="categorias__lista__item__titulo">Acessórios</h3>
+            </li>  
+        </ul>
+    </section>
+
+    <!-- Seção de promos especiais -->
+    <section class="promocoes">
+        <!-- Título da seção -->
+        <h3 class="promocoes__titulo">Promos especiais</h3>
+        <!-- Lista com os produtos -->
+        <ul class="promocoes__lista">
+
+            <!-- Item da lista - Camiseta Capy -->
+            <li class="promocoes__lista__item">
+                <img src="./assets/produtos/camiseta.png" alt="Camiseta Capy">
+                <div class="promocoes__lista__item__descricao">
+                    <h4>Camiseta Capy</h4>
+                    <p>28,00</p>
+                </div>
+            </li>
+
+            <!-- Item da lista - Mousepad Café -->
+            <li class="promocoes__lista__item">
+                <img src="./assets/produtos/mousepad.png" alt="Mousepad Café">
+                <div class="promocoes__lista__item__descricao">
+                    <h4>Mousepad Café</h4>
+                    <p>18,00</p>
+                </div>
+            </li>
+
+            <!-- Item da lista - Caneca Bug -->
+            <li class="promocoes__lista__item">
+                <img src="./assets/produtos/caneca.png" alt="Caneca Bug">
+                <div class="promocoes__lista__item__descricao">
+                    <h4>Caneca Bug</h4>
+                    <p>28,00</p>
+                </div>
+            </li>
+
+            <!-- Item da lista - Boné 404 -->
+            <li class="promocoes__lista__item">
+                <img src="./assets/produtos/boné.png" alt="Boné 404">
+                <div class="promocoes__lista__item__descricao">
+                    <h4>Boné 404</h4>
+                    <p>25,00</p>
+                </div>
+            </li>
+
+            <!-- Item da lista - Quadro While -->
+            <li class="promocoes__lista__item">
+                <img src="./assets/produtos/quadro.png" alt="Quadro While">
+                <div class="promocoes__lista__item__descricao">
+                    <h4>Quadro While</h4>
+                    <p>22,00</p>
+                </div>
+            </li>
+
+            <!-- Item da lista - Copo Vida de Dev -->
+            <li class="promocoes__lista__item">
+                <img src="./assets/produtos/copo.png" alt="Copo Vida de Dev">
+                <div class="promocoes__lista__item__descricao">
+                    <h4>Copo Vida de Dev</h4>
+                    <p>28,00</p>
+                </div>
+            </li>
+
+            <!-- Item da lista - Abridor de garrafa -->
+            <li class="promocoes__lista__item">
+                <img src="./assets/produtos/abridor.png" alt="Abridor de garrafa">
+                <div class="promocoes__lista__item__descricao">
+                    <h4>Abridor de garrafa</h4>
+                    <p>12,00</p>
+                </div>
+            </li>
+
+            <!-- Item da lista - Camiseta Estágios -->
+            <li class="promocoes__lista__item">
+                <img src="./assets/produtos/camisa.png" alt="Camiseta Estágios">
+                <div class="promocoes__lista__item__descricao">
+                    <h4>Camiseta Estágios</h4>
+                    <p>35,00</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Seção de newsletter -->
+    <section class="newsletter">
+        <!-- Título da seção -->
+        <h3 class="newsletter__titulo">Inscreva-se para ganhar descontos!</h3>
+        <!-- Texto da seção -->
+        <p class="newsletter__texto">Cadastre seu email, receba novidades e descontos imperdíveis antes de todo mundo!</p>
+
+        <!-- Container com input e botão -->
+        <div class="newsletter__container">
+            <!-- Input -->
+            <input type="email" id="newsletter__container__input" placeholder="Digite seu melhor endereço de email">
+            <!-- Botão -->
+            <button class="newsletter__container__botao">Inscrever</button>
+
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* Seção newsletter */
+.newsletter {
+    background-color: var(--cor-destaque-secundario);
+    padding: 40px 12.5%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Título da seção */
+.newsletter__titulo {
+    font-size: 31px;
+    line-height: 37.2px;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-texto-principal);
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+/* Texto da seção */
+.newsletter__texto {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: var(--fonte-texto);
+}
+
+/* Container com o input e o botão */
+.newsletter__container {
+    padding: 16px;
+}
+
+/* Grid responsivo do input e do botão */
+.newsletter__container {
+    display: inline-grid;
+    width: 60%;
+    grid-template-columns: 1fr auto;
+    gap: 16px;
+}
+
+/* Input do email */
+#newsletter__container__input {
+    width: 100%;
+    grid-column: 1;
+    padding: 16px 24px;
+    border-radius: 32px;
+    background-color: transparent;
+    border: 2px solid #090129;
+    font-family: var(--fonte-texto);
+    color: var(--cor-texto-principal);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+/* Botão de inscrever */
+.newsletter__container__botao {
+    grid-column: 2;
+    padding: 16px 24px;
+    border-radius: 32px;
+    background-color: var(--cor-fundo-botao);
+    color: var(--cor-texto);
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsividade para tablets */
+@media screen and (max-width: 768px) {
+    
+    /* Ajustando o espaçamento */
+    .newsletter__texto {
+        margin-bottom: 20px;
+    }
+
+    /* Ajustando o display */
+    .newsletter__container {
+        display: inline;
+    }
+
+    /* Ajustando o espaçamento */
+    .newsletter__container__botao {
+        margin-top: 20px;
+    }
+}

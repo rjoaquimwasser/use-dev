@@ -1,0 +1,84 @@
+/* Define o espaçamento da seção categorias */
+.categorias {
+    padding: 80px 12.5%;
+}
+
+/* Definindo um grid com duas linhas e três colunas */
+.categorias__lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+    "roupas roupas decoracao"
+    "canecas acessorios acessorios";
+    gap: 24px;
+    list-style-type: none;
+}
+
+/* Associando cada area a sua classe */
+.categorias__lista__item-roupas {
+    grid-area: roupas;
+}
+
+.categorias__lista__item-decoracao {
+    grid-area: decoracao;
+}
+
+.categorias__lista__item-canecas {
+    grid-area: canecas;
+}
+
+.categorias__lista__item-acessorios {
+    grid-area: acessorios;
+}
+
+/* Sombreamento dos containers */
+.categorias__lista__item {
+    box-shadow: 0px 4px 24px 0px #7B7B7B26;
+}
+
+/* Cor de fundo dos cards */
+.categorias__lista__item__container {
+    background-color: var(--cor-links);
+    text-align: center;
+}
+
+/* Ajustando o tamanho das imagens */
+.categorias__lista__item__container img {
+    height: 331px;
+    width: 100%;
+    object-fit: contain; /* Mantém a proporção para caber dentro do container */
+    padding: 32px;
+}
+
+/* Título da seção */
+.categorias__titulo {
+    font-size: 39px;
+    line-height: 46.8px;
+    font-weight: 700;
+    color: var(--cor-texto-principal);
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Descrição da seção */
+.categorias__texto {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--cor-texto-secundario);
+    font-family: var(--fonte-texto);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Título de cada card */
+.categorias__lista__item__titulo {
+    font-size: 31px;
+    line-height: 37.2px;
+    font-weight: 700;
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    padding: 16px 0;
+}
