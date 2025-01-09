@@ -1,13 +1,17 @@
 # Use-dev
+
 Projeto responsivo desenvolvido ao longo de curso da Alura.
 
 # Descrição
+
 Página inicial da loja UseDev.
 
 ## 🔨 Funcionalidades do projeto
+
 A página mostrará um menu de navegação no cabeçalho, um banner de divulgação, lista de categorias e produtos, assim como uma seção de cadastro para a newsletter e um rodapé com links relacionados a aplicação.
 
 ## ✔️ Técnicas e tecnologias utilizadas
+
 As técnicas e tecnologias utilizadas pra isso são:
 
 - `HTML`: Linguagem de marcação para criar páginas web.
@@ -23,9 +27,11 @@ As técnicas e tecnologias utilizadas pra isso são:
     - `Grid Areas`: Nomeação de áreas específicas do grid para layout personalizado.
 
 ## 📁 Acesso ao projeto
+
 Você pode [acessar o código fonte do projeto inicial](https://github.com/monicahillman/3992-css-grid/tree/projeto-base) ou [baixá-lo](https://github.com/monicahillman/3992-css-grid/archive/refs/heads/projeto-base.zip).
 
 ## 🛠️ Abrir e rodar o projeto
+
 Após baixar o projeto, você pode abrir com o Visual Studio Code. Para isso, no menu superior, clique em:
 
 * File > Open Folder (ou alguma opção similar)
